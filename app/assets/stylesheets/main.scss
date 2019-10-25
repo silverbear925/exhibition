@@ -1,5 +1,44 @@
 .maincontent{
-  height: 800px;
+  height: 100%;
   width: 100vw;
-  background-color: aqua;
+  background-color:lightblue;
+  display: flex;
+}
+
+.main-left-content{
+  display: block;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  margin-right: 110px;
+  float: left;
+  background-color: rgb(132, 240, 128);
+  width: 900px;
+  height: 100vh;
+  
+}
+.main-right-content{
+  display: block;
+  float: right;
+  background-color: gray;
+  width: 280px;
+  height: 100vh;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.main-title{
+  box-sizing: border-box;
+  height: 100ox;
+  height: 60px;
+  background-color: green;
+}
+
+.main-top{
+  box-sizing: border-box;
+  height: 100ox;
+  height: 60px;
+  background-color: black;
+  text-align: center;
 }
