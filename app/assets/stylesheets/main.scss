@@ -1,7 +1,7 @@
 .maincontent{
   height: 100%;
   width: 100vw;
-  background-color:lightblue;
+  background-image: url("../images/kabe01.gif");
   display: flex;
 }
 
@@ -12,7 +12,7 @@
   margin-bottom: 50px;
   margin-right: 110px;
   float: left;
-  background-color: gray;
+  background-color: rgba($color: #6e6e6e, $alpha: 1.5);
   width: 900px;
   height: 100vh;
   
@@ -20,7 +20,7 @@
 .main-right-content{
   display: block;
   float: right;
-  background-color: gray;
+  background-color: rgba($color: #6e6e6e, $alpha: 1.5);
   width: 280px;
   height: 100vh;
   margin-top: 50px;
