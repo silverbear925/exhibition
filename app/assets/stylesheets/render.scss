@@ -1,19 +1,20 @@
 .cardmain{
-  background-color: blue;
-  height: 400px;
-  width: 280px;
-  padding-right: 10px;
-  padding-left: 10px;
-
-  .card-tpp{
+ float: left;
   height: 300px;
-  width: 280x;
+  width: 265px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 15px;
+
+  &__top{
+  height: 250px;
+  width: 265x;
   background-color: coral;
   }
 
-  .card-dwon{
-  height: 100px;
-  width: 280px;
-
-  }
+  &__dwon{
+  height: 50px;
+  width: 265px;
+  background-color: darkgray;
+}
 }
