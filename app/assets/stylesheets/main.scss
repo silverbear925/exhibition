@@ -1,8 +1,8 @@
 .maincontent{
   height: 100%;
   width: 100vw;
-  background-image: url("KAZU-bgftdrtfgh_TP_V.jpg");
   display: flex;
+  background-image: url('/KAZU-bgftdrtfgh_TP_V.jpg');
 }
 
 .main-left-content{
@@ -16,6 +16,7 @@
   width: 900px;
   height: 100vh;
   overflow: scroll;
+  opacity: 0.8;
 }
 .main-right-content{
   display: block;
@@ -26,6 +27,7 @@
   margin-right: 60px;
   margin-bottom: 50px;
   overflow: scroll;
+  opacity: 0.8;
 }
 
 .main-title{

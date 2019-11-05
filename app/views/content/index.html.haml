@@ -1,8 +1,8 @@
 %html
   %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title Sample
-    %style{:href => "./style.css", :type => "text/css"}
+    %style{href: "./style.css", type: "text/css"}
     / Compiled and minified CSS
     %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css", :rel => "stylesheet"}/
     / Compiled and minified JavaScript
@@ -14,7 +14,7 @@
 
 %nav
   .nav-wrapper
-    %a.brand-logo{:href => "#"} Logo
+    %a.brand-logo{href: "#"} Logo
     %ul#nav-mobile.right.hide-on-med-and-down
       %li
         %a.nav-content{:href => "sass.html"} Sass
@@ -40,7 +40,7 @@
     = render 'showcard'
     = render 'showcard'
     = render 'showcard'
-   
+
 
 %footer.page-footer
   .container
