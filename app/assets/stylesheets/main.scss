@@ -19,13 +19,13 @@
 }
 .main-right-content{
   display: block;
-  float: right;
   background-color: rgba($color: #6e6e6e, $alpha: 1.5);
-  width: 280px;
+  width: 300px;
   height: 100vh;
   margin-top: 50px;
-  margin-right: 70px;
+  margin-right: 60px;
   margin-bottom: 50px;
+  overflow: scroll;
 }
 
 .main-title{
