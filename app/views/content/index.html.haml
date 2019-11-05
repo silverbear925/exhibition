@@ -4,24 +4,24 @@
     %title Sample
     %style{href: "./style.css", type: "text/css"}
     / Compiled and minified CSS
-    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css", :rel => "stylesheet"}/
+    %link{href: "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css", rel: "stylesheet"}/
     / Compiled and minified JavaScript
-    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"}
-    %script{:crossorigin => "anonymous", :integrity => "sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=", :src => "https://code.jquery.com/jquery-3.4.1.js"}
+    %script{src: "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"}
+    %script{crossorigin: "anonymous", integrity: "sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=", src: "https://code.jquery.com/jquery-3.4.1.js"}
   %body
 
-    %script{:src => "./app.js", :type => "text/javascript"}
+    %script{src: "./app.js", type: "text/javascript"}
 
 %nav
   .nav-wrapper
     %a.brand-logo{href: "#"} Logo
     %ul#nav-mobile.right.hide-on-med-and-down
       %li
-        %a.nav-content{:href => "sass.html"} Sass
+        %a.nav-content{href: "sass.html"} Sass
       %li
-        %a.nav-content{:href => "badges.html"} Components
+        %a.nav-content{href: "badges.html"} Components
       %li
-        %a.nav.content{:href => "collapsible.html"} JavaScript
+        %a.nav.content{href: "collapsible.html"} JavaScript
 
 
 .maincontent
@@ -52,14 +52,14 @@
         %h5.white-text Links
         %ul
           %li
-            %a.grey-text.text-lighten-3{:href => "#!"} Link 1
+            %a.grey-text.text-lighten-3{href: "#!"} Link 1
           %li
-            %a.grey-text.text-lighten-3{:href => "#!"} Link 2
+            %a.grey-text.text-lighten-3{href: "#!"} Link 2
           %li
-            %a.grey-text.text-lighten-3{:href => "#!"} Link 3
+            %a.grey-text.text-lighten-3{href: "#!"} Link 3
           %li
-            %a.grey-text.text-lighten-3{:href => "#!"} Link 4
+            %a.grey-text.text-lighten-3{href: "#!"} Link 4
   .footer-copyright
     .container
       © 2019
-      %a.grey-text.text-lighten-4.right{:href => "#!"} More Links
+      %a.grey-text.text-lighten-4.right{href: "#!"} More Links
