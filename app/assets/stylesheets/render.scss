@@ -1,6 +1,7 @@
 .cardmain{
   float: left;
-  margin: 0,0,10px,;
+  margin: 10px;
+  overflow: scroll;
 
   &__top{
   height: 200px;
