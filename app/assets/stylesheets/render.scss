@@ -1,20 +1,17 @@
 .cardmain{
- float: left;
-  height: 300px;
-  width: 265px;
-  padding-top: 15px;
-  padding-right: 10px;
-  padding-left: 15px;
+  float: left;
+  margin: 0,0,10px,;
 
   &__top{
   height: 200px;
-  width: 265x;
+  width: 280x;
   background-color: coral;
   }
 
   &__dwon{
   height: 100px;
-  width: 265px;
+  width: 280px;
   background-color: darkgray;
 }
 }
+
