@@ -1,0 +1,46 @@
+.maincontent{
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  background-image: url('/KAZU-bgftdrtfgh_TP_V.jpg');
+}
+
+.main-left-content{
+  display: block;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  margin-right: 110px;
+  float: left;
+  background-color: rgba($color: #6e6e6e, $alpha: 1.5);
+  width: 900px;
+  height: 100vh;
+  overflow: scroll;
+  opacity: 0.8;
+}
+.main-right-content{
+  display: block;
+  background-color: rgba($color: #6e6e6e, $alpha: 1.5);
+  width: 300px;
+  height: 100vh;
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  overflow: scroll;
+  opacity: 0.8;
+}
+
+.main-title{
+  box-sizing: border-box;
+  height: 100ox;
+  height: 60px;
+  background-color: black;
+}
+
+.main-top{
+  box-sizing: border-box;
+  height: 100ox;
+  height: 60px;
+  background-color: black;
+  text-align: center;
+}

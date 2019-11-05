@@ -1,0 +1,18 @@
+.cardmain{
+  float: left;
+  margin: 10px;
+  overflow: scroll;
+
+  &__top{
+  height: 200px;
+  width: 280x;
+  background-color: coral;
+  }
+
+  &__dwon{
+  height: 100px;
+  width: 280px;
+  background-color: darkgray;
+}
+}
+
